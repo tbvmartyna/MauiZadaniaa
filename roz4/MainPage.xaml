@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="roz4.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+
+            <Label
+                Text="Formularz"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+           <Entry
+                x:Name="NameEntry"
+                Placeholder="Wpisz swoje imię" />
+            <Entry
+                x:Name="SurnameEntry"
+                Placeholder="Wpisz swoje nazwisko" />
+
+            <HorizontalStackLayout Spacing="10">
+                
+                <Label 
+                 Text="Chcę otrzymać certyfikat" 
+                 VerticalOptions="Center" />
+                <Switch x:Name="przelacznik" />
+
+            </HorizontalStackLayout>
+            
+            <Button
+                Text="Zapisz się"
+                Clicked="OnSubmitClicked" />
+            
+            <RadioButton
+                x:Name="radioButton1"
+                Content="Stacjonarny" />
+            <RadioButton
+                x:Name="radioButton2"
+                Content="Online" />
+            <RadioButton
+                x:Name="radioButton3"
+                Content="Hybrydowy" />
+            
+            <Editor
+                x:Name="UwagiEditor"
+                Placeholder="Wpisz swoje uwagi"
+                AutoSize="TextChanges" />
+
+            <Label
+                x:Name="ResultLabel"
+                Text=""
+                 />
+           
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

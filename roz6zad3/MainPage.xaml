@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="roz6zad3.MainPage"
+             Title="Licznik">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+           <Button
+               Text="Plus"
+               Clicked="OnPlusClicked"/>
+            <Button
+                Text="Minus"
+                Clicked="OnMinusClicked"/>
+            <Button
+                Text="Zeruj"
+                Clicked="OnResetClicked"/>
+            <Label
+                x:Name="counterLabel"
+                Text="0"
+                FontSize="18"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

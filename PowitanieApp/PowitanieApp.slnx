@@ -1,0 +1,41 @@
+<Solution>
+  <Project Path="../../../../../source/repos/MauiApp2/MauiApp2.csproj" Id="54957193-57a3-4d4e-89de-182d552e41c3">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="../../../../../source/repos/MauiApp3/MauiApp3.csproj" Id="8776190a-e163-454b-9199-347f41609fec">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="../../../../../source/repos/MauiApp4/MauiApp4.csproj" Id="a19fee6c-20eb-481b-a6b4-513306119543">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="../../../../../source/repos/PowitanieApp/PowitanieApp.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz4/roz4.csproj" Id="50b364e7-76f9-404d-971a-cb35dda731d8">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz5/roz5.csproj" Id="aedd7356-a830-496d-89d2-147a6635fbb2">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz5zad3/roz5zad3.csproj" Id="71385000-1d18-4042-9805-ce9582fa90ff">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz6zad2/roz6zad2.csproj" Id="c2be513a-1e96-4c0d-889e-2f66976cd998">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz6zad3/roz6zad3.csproj" Id="7cd458fd-4c10-450d-920a-5e0cdd4c5277">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz7zad2/roz7zad2.csproj" Id="441a6e96-c727-4306-bdc4-429fe7a4e4e3">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz7zad3/roz7zad3.csproj" Id="a3b14c44-91ce-4342-a364-6e6e99c5a381">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="roz8zadd2/roz8zadd2.csproj" Id="38062440-cf36-4d90-8b05-768f1357e84f">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="rozz8zad2/rozz8zad2.csproj" Id="5407d8ec-f6a9-42d9-bf23-fc88deee3ba4">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
